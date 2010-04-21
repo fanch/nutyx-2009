@@ -2,6 +2,7 @@
 # URL: http://www.claws-mail.org/plugin.php?plugin=notification
 # Packager: skingrapher at legtux dot org
 # Depends on: claws-mail
+
 name=notification_plugin
 version=0.24
 release=1
