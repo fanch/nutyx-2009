@@ -1,0 +1,36 @@
+#!/bin/bash
+
+daemon_name=brltty
+
+. /etc/sysconfig/rc
+. $rc_functions
+. /etc/conf.d/$daemon_name.conf
+
+get_pid() {
+	pidof -o %PPID $daemon_name
+}
+
+case "$1" in
+  start)
+    boot_mesg "Starting $daemon_name daemon"
+    loadproc /usr/bin/$daemon_name;;
+
+  stop)
+    loadproc "Stopping $daemon_name daemon"
+    killproc $daemon_name;;
+
+  restart)
+    $0 stop
+    sleep 3
+    $0 start
+    ;;
+
+  status)
+    statusproc $daemon_name
+    ;;
+
+  *)
+    echo "usage: $0 {start|stop|restart|status}"
+esac
+
+exit 0
