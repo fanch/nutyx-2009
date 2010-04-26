@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Emesene
+Comment=Logiciel de messagerie instantanée utilisant le protocol MSN
+Exec=emesene
+Icon=emesene-logo
+Terminal=false
+Type=Application
+Categories=Application;Network;
+StartupNotify=true
