@@ -1,0 +1,19 @@
+# Description: Client pour le protocole MSN / Live
+# URL: http://www.emesene.org
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+# Depends on: hicolor-icon-theme, pygtk, python, xdg-utils, gst-python
+name=emesene
+version=1.6.1
+release=1
+source=(http://ovh.dl.sourceforge.net/project/emesene/emesene-1.6.1/$name-$version.tar.gz emesene.desktop)
+build() {
+ls
+	mkdir -p $PKG/usr/bin $PKG/usr/share/pixmaps $PKG/usr/share/applications $PKG/usr/share/
+	install -m 644 emesene.desktop $PKG/usr/share/applications
+	cd $name-$version
+		ln -s /usr/share/emesene/emesene $PKG/usr/bin/emesene
+		install -m 644 emesene-logo.png $PKG/usr/share/pixmaps
+	mv ../$name-$version $PKG/usr/share/emesene
+}
+
