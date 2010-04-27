@@ -9,6 +9,10 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/file-roller/
 -rw-r--r--	root/root	usr/lib/file-roller/isoinfo.sh
 -rwxr-xr-x	root/root	usr/lib/file-roller/rpm2cpio
+drwxr-xr-x	root/root	usr/lib/nautilus/
+drwxr-xr-x	root/root	usr/lib/nautilus/extensions-2.0/
+-rwxr-xr-x	root/root	usr/lib/nautilus/extensions-2.0/libnautilus-fileroller.la
+-rwxr-xr-x	root/root	usr/lib/nautilus/extensions-2.0/libnautilus-fileroller.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/file-roller.desktop
