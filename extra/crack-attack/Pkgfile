@@ -1,0 +1,22 @@
+# Description: Jeu de casse-brique
+# URL: http://nongnu.org/crack-attack/
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+# depends on: sdl_mixer, sdl, pango, freeglut, atk, cairo, fontconfig, mesa3d, glib, gtk, xorg-libsm, xorg-xrandr
+# Depends on : gtk, xorg-libxmu, freeglut
+name=crack-attack
+version=1.1.14
+release=1
+source=(http://savannah.nongnu.org/download/crack-attack/crack-attack-1.1.14.tar.gz freeglut.patch TextureLoader.diff crack-attack.desktop)
+build() {
+mkdir -p $PKG/usr/share/pixmaps $PKG/usr/share/applications
+cd $name-$version
+	patch -Np0 -i ../freeglut.patch || return 1
+	patch -p0 < ../TextureLoader.diff || return 1
+        ./configure --prefix=/usr
+        make
+        make DESTDIR=$PKG install
+	install -m 444 data/crack-attack.xpm $PKG/usr/share/pixmaps
+	install -m 444 ../crack-attack.desktop $PKG/usr/share/applications
+}
+
