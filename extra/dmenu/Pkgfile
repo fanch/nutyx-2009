@@ -2,7 +2,8 @@
 # URL: http://tools.suckless.org/dmenu/
 # Maintainer: NuTyX core team
 # Packager: Skippythekangoo at yahoo dot fr
-# Depends on:
+# Depends on: xorg-libx11, xorg-libxinerama
+
 name=dmenu
 version=4.0
 release=1
