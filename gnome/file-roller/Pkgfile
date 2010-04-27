@@ -2,7 +2,7 @@
 # URL: http://www.gnome.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: libgnomeui, gnome-doc-utils
+# Depends on: libgnomeui, gnome-doc-utils, rarian
 
 name=file-roller
 version=2.30.0
@@ -15,8 +15,7 @@ build() {
 		--libexecdir=$GNOME_PREFIX/lib \
 		--sysconfdir=/etc \
 		--localstatedir=/var/lib \
-		--disable-schemas-install \
-		--disable-nautilus-actions
+		
 	make
 	make DESTDIR=$PKG install
 	rm -rf $PKG/var
