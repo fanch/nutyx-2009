@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Crack-Attack
+Comment=Jeu de casse-briques
+Exec=crack-attack
+Icon=crack-attack
+Terminal=false
+Type=Application
+Categories=Application;Game;
+StartupNotify=true
