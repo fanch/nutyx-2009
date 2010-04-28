@@ -1,0 +1,29 @@
+# Description: Clone de ksh de AT&T du domaine public
+# URL: http://www.cs.mun.ca/~michael/pdksh/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+
+name=pdksh
+version=5.2.14
+release=1
+source=(ftp://ftp.cs.mun.ca/pub/$name/$name-$version.tar.gz \
+	$name-$version.patch )
+
+build() {
+cd $name-$version
+patch -Np1 -i ../$name-$version.patch
+./configure --prefix=/usr --mandir=/usr/share/man
+make
+make prefix=$PKG mandir=$PKG/usr/share/man/man1 install
+mkdir -p $PKG/usr/bin
+cat > $PKG/usr/bin/ksh << "EOF"
+#!/bin/sh
+
+echo "WARNING: you should be calling ksh with /bin/ksh,"
+echo "not with /usr/bin/ksh. Please execute chsh to fix"
+echo "this. Legacy /usr/bin/ksh support will go away!"
+echo ""
+
+exec /bin/ksh $@
+EOF
+}

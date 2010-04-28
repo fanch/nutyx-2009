@@ -1,0 +1,16 @@
+# Description: Lanceur d'application pour X issu du projet dwm
+# URL: http://tools.suckless.org/dmenu/
+# Maintainer: NuTyX core team
+# Packager: Skippythekangoo at yahoo dot fr
+# Depends on: xorg-libx11, xorg-libxinerama
+
+name=dmenu
+version=4.0
+release=1
+source=(http://dl.suckless.org/tools/$name-$version.tar.gz)
+build() {
+cd $name-$version
+	sed -i 's/PREFIX\ =\ \/usr\/local/PREFIX\ =\ \/usr/g' config.mk >> config.mk
+        make DESTDIR=$PKG clean install
+}
+
