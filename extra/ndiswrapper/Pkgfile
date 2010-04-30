@@ -6,12 +6,12 @@
 
 name=ndiswrapper
 version=1.56
-release=2
+release=1
 
 source=( http://downloads.sourceforge.net/sourceforge/ndiswrapper/ndiswrapper-$version.tar.gz)
 build() {
 	cd $name-$version
 	make
-	make install
+	make DESTDIR=$PKG install
 }
 
