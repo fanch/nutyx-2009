@@ -6,7 +6,7 @@
 
 name=sane
 version=1.0.21
-release=2
+release=1
 source=( ftp://ftp2.sane-project.org/pub/sane/$name-backends-$version/$name-backends-$version.tar.gz)
 
 
