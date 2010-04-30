@@ -1,8 +1,8 @@
-# Decription: GNU Debugger 
+# Description: GNU Debugger 
 # URL: http://www.gnu.org/software/gdb/
 # Maintainer: NuTyX core team
 # Packager: lesibel at free dot fr
-# Depends on: ncurses, expat, python
+# Depends on: expat, python
 
 name=gdb
 version=7.1
@@ -16,7 +16,6 @@ build() {
 	patch -Np1 -i $SRC/tui-no-gdbarch.patch
 
         ./configure --prefix=/usr \
-		    --disable-nls \
     		    --with-system-readline \
     		    --with-system-gdbinit=/etc/gdb/gdbinit
         make
@@ -28,6 +27,7 @@ build() {
 	rm -r $PKG/usr/include/{bfd,dis-asm,symcat,ansidecl,bfdlink}.h
   	rm -rf $PKG/usr/lib/{libiberty,libbfd,libopcodes}.la
 	rm -r $PKG/usr/lib/{libiberty,libbfd,libopcodes}.a
-  	rm -r $PKG/usr/share/info/{bfd.info,configure.info,standards.info}
+	rm  $PKG/usr/share/info/{bfd,standards,configure}.info
+	rm -r $PKG/usr/share/locale
 }
 
