@@ -2,7 +2,6 @@
 # URL: http://ndiswrapper.sourceforge.net
 # Maintainer: NuTyX core team
 # Packager: texou at absolinux point net
-# Depends on: wireless_tools
 
 name=ndiswrapper
 version=1.56
