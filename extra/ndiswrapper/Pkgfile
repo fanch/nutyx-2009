@@ -1,0 +1,17 @@
+# Decription: Installation de pilotes issus de Windows pour carte Wifi 
+# URL: http://ndiswrapper.sourceforge.net
+# Maintainer: NuTyX core team
+# Packager: texou at absolinux point net
+# Depends on: wireless_tools
+
+name=ndiswrapper
+version=1.56
+release=2
+
+source=( http://downloads.sourceforge.net/sourceforge/ndiswrapper/ndiswrapper-$version.tar.gz)
+build() {
+	cd $name-$version
+	make
+	make install
+}
+
