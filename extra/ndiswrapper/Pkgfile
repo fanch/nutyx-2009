@@ -13,5 +13,9 @@ build() {
 	cd $name-$version
 	make
 	make DESTDIR=$PKG install
+	mkdir -p $PKG/lib/modules/`uname -r`/drivers/net/wireless/ndiswrapper
+	mv $PKG/lib/modules/misc/* \
+	$PKG/lib/modules/`uname -r`/drivers/net/wireless/ndiswrapper/
+	rm -r $PKG/lib/modules/misc
 }
 
