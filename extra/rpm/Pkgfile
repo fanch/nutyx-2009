@@ -1,0 +1,18 @@
+# Description: Gestionnaire RPM pour la construction de ORACLE, NE PAS UTILISER POUR INSTALLER d'autres paquets
+# URL: http://rpm5.org
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: beecrypt, pcre, python
+
+name=rpm
+version=5.1.9
+release=1
+source=(http://rpm5.org/files/$name/$name-5.1/$name-$version.tar.gz)
+build () {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make prefix=$PKG/usr install
+
+	chown -R root:root $PKG
+}
