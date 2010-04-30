@@ -2,10 +2,10 @@
 # URL: http://www.sane-project.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: libusb, libjpeg, libtiff, libgphoto2, libieee1284, gtk, libexif
+# Depends on: libusb, libjpeg, libtiff, libgphoto2, libieee1284, gtk, libexif, libv4l
 
 name=sane
-version=1.0.20
+version=1.0.21
 release=2
 source=( ftp://ftp2.sane-project.org/pub/sane/$name-backends-$version/$name-backends-$version.tar.gz)
 
