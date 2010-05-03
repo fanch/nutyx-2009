@@ -1,0 +1,40 @@
+#!/bin/sh
+# Begin $rc_base/init.d/pure-ftpd
+# --------------------------------------------------
+nbrClient=100
+nbrConnParIP=5
+dureeConn=10
+chargeDDMax=95
+nbrSessionSumult=2:0
+log=clf:/var/log/pureftpd.log
+# Pour l'utilisation de PureDB, mettre : puredb:/etc/pureftpd.pdb
+authMethode=mysql:/etc/pureftpd-mysql.conf
+# --------------------------------------------------
+. /etc/sysconfig/rc
+. $rc_functions
+
+case "$1" in
+	start)
+		boot_mesg "Starting the Pure-FTPD Daemon..."
+		loadproc /usr/sbin/pure-ftpd -A -c$nbrClient -C$nbrConnParIP -E
+		-i -I$dureeConn -j -k$chargeDDMax -l$authMethode -s -y$nbrSessionSumult
+		-O$log -B
+		;;
+	stop)
+		boot_mesg "Stopping the Pure-FTPD Daemon..."
+		killproc /usr/sbin/pure-ftpd
+		;;
+	restart)
+		$0 stop
+		sleep 1
+		$0 start
+		;;
+	status)
+		statusproc /usr/sbin/pure-ftpd
+	;;
+	*)
+		echo "Usage: $0 {start|stop|restart|status}"
+		exit 1
+		;;
+esac
+# End $rc_base/init.d/pure-ftpd
