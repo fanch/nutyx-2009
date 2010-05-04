@@ -1,0 +1,16 @@
+# Description: Wrapper de ligne de comande
+# URL: http://utopia.knoware.nl/~hlub/uck/rlwrap/
+# Maintainer: NuTyX core team
+# Packager: Skippythekangoo at yahoo dot fr
+# Depends on:
+name=rlwrap
+version=0.36
+release=1
+source=(http://utopia.knoware.nl/~hlub/uck/$name/$name-$version.tar.gz)
+build() {
+cd $name-$version
+        ./configure --prefix=/usr
+        make
+        make DESTDIR=$PKG install
+}
+
