@@ -1,8 +1,8 @@
-# Description: Wrapper de ligne de comande
+# Description: Couche d'indirection (wrapper) de ligne de comande
 # URL: http://utopia.knoware.nl/~hlub/uck/rlwrap/
 # Maintainer: NuTyX core team
 # Packager: Skippythekangoo at yahoo dot fr
-# Depends on:
+
 name=rlwrap
 version=0.36
 release=1
