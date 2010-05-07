@@ -1,11 +1,11 @@
 # Description: lecteur de fichier chm sous X 
 # URL: http://uzbl.org
 # Packager: skingrapher at legtux dot org
-# Depends on: libwebkit, libsoup, gtk, socat, dmenu, python, perl, pango, pygtk, xclip
+# Depends on: webkit, libsoup, gtk, socat, dmenu, python, perl, pango, pygtk, xclip
 name=uzbl
 version=2010.04.03
 release=1
-source=(http://waitdownload.github.com/Dieterbe-$name-ae15d25.tar.gz)
+source=(http://download.github.com/Dieterbe-uzbl-$version-0-gae15d25.tar.gz)
 
 build() {
 cd Dieterbe-$name-*
