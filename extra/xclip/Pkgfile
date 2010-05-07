@@ -1,0 +1,16 @@
+# Description: interface en ligne de commande facilitant le copier-coller sous X
+# URL: http://sourceforge.net/projects/xclip
+# Packager: skingrapher at legtux dot org
+# Depends on: xorg-libxmu
+
+name=xclip
+version=0.12
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/$name/$name-$version.tar.gz)
+build () 
+{ 
+    cd $name-$version
+    ./configure --prefix=/usr --mandir=/usr/share/man
+    make
+    make DESTDIR=$PKG install
+}
