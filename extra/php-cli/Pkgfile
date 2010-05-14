@@ -2,7 +2,7 @@
 # URL: http://www.php.net
 # Maintainer:  manu_
 # Packager: manu_pkg at yahoo dot fr
-# Depends on: libxml2, libpng, curl, mysql
+# Depends on: libxml2, libpng, curl
 
 name=php-cli
 version=5.3.2
@@ -28,8 +28,10 @@ build () {
     --with-gettext \
     --enable-mbstring \
     --with-readline \
-    --with-mysql=/usr \
-    --with-mysql-sock=/var/run/mysql \
+    --with-mysql=mysqlnd \
+    --with-mysqli=mysqlnd \
+    --with-pdo-mysql=mysqlnd \
+    --with-mysql-sock=/var/run/mysql/mysql.sock \
     --with-curl \
     --with-gd
     
