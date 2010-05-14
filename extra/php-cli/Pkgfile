@@ -2,7 +2,7 @@
 # URL: http://www.php.net
 # Maintainer:  manu_
 # Packager: manu_pkg at yahoo dot fr
-# Depends on: libxml2, libpng, curl
+# Depends on: libxml2, libpng, curl, mysql
 
 name=php-cli
 version=5.3.2
