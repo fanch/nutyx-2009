@@ -6,7 +6,7 @@
 
 name=php-cli
 version=5.3.2
-release=1
+release=2
 source=(http://www.php.net/distributions/php-$version.tar.bz2)
 
 build () {
