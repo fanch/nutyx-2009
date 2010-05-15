@@ -6,7 +6,7 @@
 # Group: gnome/platform
 
 name=at-spi
-version=1.28.1
+version=1.30.1
 release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.bz2)
 

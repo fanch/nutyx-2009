@@ -235,6 +235,17 @@ drwxr-xr-x	root/root	usr/share/gok/el/
 -rw-r--r--	root/root	usr/share/gok/el/text-operations.kbd
 -rw-r--r--	root/root	usr/share/gok/el/valuator.kbd
 -rw-r--r--	root/root	usr/share/gok/empty.png
+drwxr-xr-x	root/root	usr/share/gok/en@shaw/
+-rw-r--r--	root/root	usr/share/gok/en@shaw/gok-controls.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/hide.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/launcher.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/main.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/mouse.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/move-resize.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/numberpad.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/quit.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/text-operations.kbd
+-rw-r--r--	root/root	usr/share/gok/en@shaw/valuator.kbd
 drwxr-xr-x	root/root	usr/share/gok/en_CA/
 -rw-r--r--	root/root	usr/share/gok/en_CA/gok-controls.kbd
 -rw-r--r--	root/root	usr/share/gok/en_CA/hide.kbd
@@ -345,8 +356,8 @@ drwxr-xr-x	root/root	usr/share/gok/gl/
 -rw-r--r--	root/root	usr/share/gok/gl/quit.kbd
 -rw-r--r--	root/root	usr/share/gok/gl/text-operations.kbd
 -rw-r--r--	root/root	usr/share/gok/gl/valuator.kbd
-drwxr-xr-x	root/root	usr/share/gok/glade/
--rw-r--r--	root/root	usr/share/gok/glade/gok.glade2
+-rw-r--r--	root/root	usr/share/gok/gok-editor.ui
+-rw-r--r--	root/root	usr/share/gok/gok-settingsdialog.ui
 -rw-r--r--	root/root	usr/share/gok/gok.rc
 -rw-r--r--	root/root	usr/share/gok/goklogo.png
 drwxr-xr-x	root/root	usr/share/gok/gu/
@@ -909,7 +920,6 @@ drwxr-xr-x	root/root	usr/share/gtk-doc/html/gok/
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/ch02.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/ch03.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/ch04.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-GokButton.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-arraylist.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-callbacks.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-command-common.html
@@ -922,6 +932,7 @@ drwxr-xr-x	root/root	usr/share/gtk-doc/html/gok/
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-global.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-action.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-branchback-stack.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-button.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-chunker.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-control.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/gok/gok-gok-data.html
