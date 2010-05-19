@@ -6,7 +6,7 @@
 
 name=kdebase-workspace
 version=4.4.3
-release=1
+release=2
 source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2\
         kdm lxde.desktop ede.desktop Xsession.kde4 gnome.desktop \
 	http://kiao.no-ip.info/NuTyX/files/kdm-nutyx2009-2.tar.gz\
