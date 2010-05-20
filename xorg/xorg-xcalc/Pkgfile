@@ -1,0 +1,16 @@
+# Description: Calculatrice pour Xorg
+# URL: http://xorg.freedesktop.org 
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: xorg-server
+
+name=xorg-xcalc
+version=1.0.3
+release=1
+source=(http://xorg.freedesktop.org/releases/individual/app/xcalc-$version.tar.bz2)
+build() {
+	cd xcalc-$version	
+	./configure $XORG_CONFIG
+	make
+	make DESTDIR=$PKG install
+}

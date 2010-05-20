@@ -1,0 +1,19 @@
+# Description: IDE pour développer en Java, C++ Php, Ruby
+# URL: http://netbeans.org
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+# Depends on: jdk
+name=netbeans
+version=6.8
+release=1
+source=(http://bits.netbeans.org/netbeans/6.8/community/fcs/bundles/$name-$version-ml-linux.sh netbeans.desktop)
+build() {
+	mkdir -p $PKG/opt/netbeans/ $PKG/usr/bin/ $PKG/usr/share/applications $PKG/usr/share/pixmaps/
+	param=-J-Dnb-base.installation.location=$PKG/opt/netbeans/
+	sh $name-$version-ml-linux.sh --silent "$param"
+	ln -s /opt/netbeans/bin/netbeans $PKG/usr/bin/netbeans
+	install -m 644 netbeans.desktop $PKG/usr/share/applications/netbeans.desktop
+	mv $PKG/opt/netbeans/nb6.8/netbeans.png $PKG/usr/share/pixmaps/netbeans.png
+	# On supprime un fichier fait pas l'installeur et qui est en dehors du paquet
+	rm /usr/share/applications/netbeans-6.8.desktop
+}

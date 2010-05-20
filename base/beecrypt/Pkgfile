@@ -2,17 +2,17 @@
 # URL: http://beecrypt.sourceforge.net/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on:
 
 name=beecrypt
 version=4.2.1
-release=1
+release=2
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 build () {
 	cd $name-$version
 	./configure --prefix=/usr \
 		    --without-python \
-		    --without-java
+		    --without-java \
+		--disable-openmp
 
 	make
 	make prefix=$PKG/usr install

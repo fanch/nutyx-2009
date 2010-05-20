@@ -2,17 +2,18 @@
 # URL: http://www.gimp.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: gtk, libart_lgpl, pygtk, curl, libgtkhtml, libexif, openexr, gegl, poppler, libmng
+# Depends on: gtk, libart_lgpl, pygtk, curl, libgtkhtml, libexif, openexr, gegl, poppler-gtk, libmng
 
 name=gimp
 version=2.6.8
 release=3
 source=(ftp://ftp.gimp.org/pub/gimp/v2.6/gimp-$version.tar.bz2 \
-	gimp-splash-2009-2.png gimp.desktop)
+	gtk-2.19-statusbar.patch gimp-splash-2009-2.png gimp.desktop)
 
 
 build() {
 	cd $name-$version
+#	patch -Np1 -i ../gtk-2.19-statusbar.patch
 	./configure --prefix=/usr \
 		--mandir=/usr/share/man \
 		--infodir=/usr/share/info \

@@ -1,0 +1,17 @@
+# Description: Paquet qui contient des outils de statistiques
+# URL: http://freshmeat.net/projects/sysstat/
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+
+name=sysstat
+version=9.1.1
+release=1
+source=(http://pagesperso-orange.fr/sebastien.godard/sysstat-9.1.1.tar.gz)
+build() {
+cd $name-$version
+        ./configure --prefix=/usr \
+	--mandir=/usr/share/man
+        make
+        make DESTDIR=$PKG install
+}
+

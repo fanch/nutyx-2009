@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Netbeans
+Comment=Environnement de Développement intégré pour Java, PHP, C++, Ruby...
+Exec=netbeans
+Icon=netbeans
+Terminal=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true

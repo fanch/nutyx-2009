@@ -1,0 +1,15 @@
+# Description: relay for bidirectional data transfer between two independent data channels
+# URL: http://www.dest-unreach.org/socat
+# Packager: skingrapher at legtux dot org
+# Depends on:
+name=socat
+version=1.7.1.2
+release=1
+source=(http://www.dest-unreach.org/socat/download/$name-$version.tar.bz2)
+
+build() {
+cd $name-$version
+        ./configure --prefix=/usr --mandir=/usr/share/man 
+        make
+        make DESTDIR=$PKG install
+}

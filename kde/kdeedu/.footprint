@@ -239,7 +239,6 @@ drwxr-xr-x	root/root	opt/kde/share/applications/
 drwxr-xr-x	root/root	opt/kde/share/applications/kde4/
 -rw-r--r--	root/root	opt/kde/share/applications/kde4/blinken.desktop
 -rw-r--r--	root/root	opt/kde/share/applications/kde4/cantor.desktop
--rw-r--r--	root/root	opt/kde/share/applications/kde4/cantor_part.desktop
 -rw-r--r--	root/root	opt/kde/share/applications/kde4/kalgebra.desktop
 -rw-r--r--	root/root	opt/kde/share/applications/kde4/kalzium.desktop
 -rw-r--r--	root/root	opt/kde/share/applications/kde4/kanagram.desktop
@@ -3804,6 +3803,7 @@ drwxr-xr-x	root/root	opt/kde/share/icons/oxygen/22x22/actions/
 drwxr-xr-x	root/root	opt/kde/share/kde4/
 drwxr-xr-x	root/root	opt/kde/share/kde4/services/
 drwxr-xr-x	root/root	opt/kde/share/kde4/services/cantor/
+-rw-r--r--	root/root	opt/kde/share/kde4/services/cantor/cantor_part.desktop
 -rw-r--r--	root/root	opt/kde/share/kde4/services/cantor/creatematrixassistant.desktop
 -rw-r--r--	root/root	opt/kde/share/kde4/services/cantor/differentiateassistant.desktop
 -rw-r--r--	root/root	opt/kde/share/kde4/services/cantor/eigenvaluesassistant.desktop

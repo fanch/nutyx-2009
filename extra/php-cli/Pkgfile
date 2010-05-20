@@ -1,0 +1,51 @@
+# Description: PHP en ligne de commande sans serveur Web
+# URL: http://www.php.net
+# Maintainer:  manu_
+# Packager: manu_pkg at yahoo dot fr
+# Depends on: libxml2, libpng, curl
+
+name=php-cli
+version=5.3.2
+release=2
+source=(http://www.php.net/distributions/php-$version.tar.bz2)
+
+build () {
+    cd php-$version
+    sed -i "s/-i -a/-i/" configure
+    ./configure --prefix=/usr \
+    --program-suffix=-cli \
+    --mandir=/usr/share/man \
+    --sysconfdir=/etc \
+    --disable-cgi \
+    --without-pear \
+    --with-config-file-path=/etc/php-cli \
+    --with-zlib \
+    --enable-bcmath \
+    --with-bz2 \
+    --enable-calendar \
+    --enable-exif \
+    --enable-ftp \
+    --with-gettext \
+    --enable-mbstring \
+    --with-readline \
+    --with-mysql=mysqlnd \
+    --with-mysqli=mysqlnd \
+    --with-pdo-mysql=mysqlnd \
+    --with-mysql-sock=/var/run/mysql/mysql.sock \
+    --with-curl \
+    --with-gd
+    
+    make
+
+    make INSTALL_ROOT=$PKG install
+
+    install -D -m 644 php.ini-production $PKG/etc/php-cli/php.ini
+
+    rm -rf $PKG/usr/lib
+    rm -rf $PKG/usr/include
+    rm -rf $PKG/usr/share
+    rm -f $PKG/usr/bin/phar
+    rm -f $PKG/usr/bin/phar.phar
+    rm -f $PKG/usr/bin/php-config-cli
+    rm -f $PKG/usr/bin/phpize-cli
+}
