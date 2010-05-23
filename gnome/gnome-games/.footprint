@@ -1276,6 +1276,10 @@ drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/cs/
 drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/cs/figures/
 -rw-r--r--	root/root	usr/share/gnome/help/gnobots2/cs/figures/gnobots2-main.png
 -rw-r--r--	root/root	usr/share/gnome/help/gnobots2/cs/gnobots2.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/da/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/da/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnobots2/da/figures/gnobots2-main.png -> ../../C/figures/gnobots2-main.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnobots2/da/gnobots2.xml
 drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/de/
 drwxr-xr-x	root/root	usr/share/gnome/help/gnobots2/de/figures/
 -rw-r--r--	root/root	usr/share/gnome/help/gnobots2/de/figures/gnobots2-main.png
@@ -1889,7 +1893,7 @@ lrwxrwxrwx	root/root	usr/share/gnome/help/gnotravex/eu/figures/gnotravex-video.o
 -rw-r--r--	root/root	usr/share/gnome/help/gnotravex/eu/winning.page
 drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/fr/
 drwxr-xr-x	root/root	usr/share/gnome/help/gnotravex/fr/figures/
-lrwxrwxrwx	root/root	usr/share/gnome/help/gnotravex/fr/figures/gnotravex-main-window.png -> ../../C/figures/gnotravex-main-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/figures/gnotravex-main-window.png
 lrwxrwxrwx	root/root	usr/share/gnome/help/gnotravex/fr/figures/gnotravex-video.ogv -> ../../C/figures/gnotravex-video.ogv
 -rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/gameplay.page
 -rw-r--r--	root/root	usr/share/gnome/help/gnotravex/fr/hint.page
@@ -2811,6 +2815,7 @@ drwxr-xr-x	root/root	usr/share/omf/gnobots2/
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-C.omf
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-ca.omf
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-cs.omf
+-rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-da.omf
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-de.omf
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-el.omf
 -rw-r--r--	root/root	usr/share/omf/gnobots2/gnobots2-en_GB.omf
