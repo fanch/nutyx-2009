@@ -5,7 +5,7 @@
 # Depends on:libgpod,libsoup,gnome-media,totem-pl-parser,libmusicbrainz,libmtp,libnotify,lirc-utils,desktop-file-utils,gst-python,gst-plugins-base,gst-plugins-good,pygtk,gvfs,hicolor-icon-theme
 
 name=rhythmbox
-version=0.12.6
+version=0.12.8
 release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.bz2)
 
