@@ -161,57 +161,57 @@ drwxr-xr-x	root/root	usr/lib/gstreamer-0.10/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-0.10/libgstxvimagesink.la
 -rwxr-xr-x	root/root	usr/lib/gstreamer-0.10/libgstxvimagesink.so
 -rwxr-xr-x	root/root	usr/lib/libgstapp-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstapp-0.10.so -> libgstapp-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstapp-0.10.so.0 -> libgstapp-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstapp-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstapp-0.10.so -> libgstapp-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstapp-0.10.so.0 -> libgstapp-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstapp-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstaudio-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstaudio-0.10.so -> libgstaudio-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstaudio-0.10.so.0 -> libgstaudio-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstaudio-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstaudio-0.10.so -> libgstaudio-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstaudio-0.10.so.0 -> libgstaudio-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstaudio-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstcdda-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstcdda-0.10.so -> libgstcdda-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstcdda-0.10.so.0 -> libgstcdda-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstcdda-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstcdda-0.10.so -> libgstcdda-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstcdda-0.10.so.0 -> libgstcdda-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstcdda-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstfft-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstfft-0.10.so -> libgstfft-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstfft-0.10.so.0 -> libgstfft-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstfft-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstfft-0.10.so -> libgstfft-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstfft-0.10.so.0 -> libgstfft-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstfft-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstinterfaces-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstinterfaces-0.10.so -> libgstinterfaces-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstinterfaces-0.10.so.0 -> libgstinterfaces-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstinterfaces-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstinterfaces-0.10.so -> libgstinterfaces-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstinterfaces-0.10.so.0 -> libgstinterfaces-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstinterfaces-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstnetbuffer-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstnetbuffer-0.10.so -> libgstnetbuffer-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstnetbuffer-0.10.so.0 -> libgstnetbuffer-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstnetbuffer-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstnetbuffer-0.10.so -> libgstnetbuffer-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstnetbuffer-0.10.so.0 -> libgstnetbuffer-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstnetbuffer-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstpbutils-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstpbutils-0.10.so -> libgstpbutils-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstpbutils-0.10.so.0 -> libgstpbutils-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstpbutils-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstpbutils-0.10.so -> libgstpbutils-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstpbutils-0.10.so.0 -> libgstpbutils-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstpbutils-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstriff-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstriff-0.10.so -> libgstriff-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstriff-0.10.so.0 -> libgstriff-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstriff-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstriff-0.10.so -> libgstriff-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstriff-0.10.so.0 -> libgstriff-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstriff-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstrtp-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstrtp-0.10.so -> libgstrtp-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstrtp-0.10.so.0 -> libgstrtp-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstrtp-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstrtp-0.10.so -> libgstrtp-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstrtp-0.10.so.0 -> libgstrtp-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstrtp-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstrtsp-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstrtsp-0.10.so -> libgstrtsp-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstrtsp-0.10.so.0 -> libgstrtsp-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstrtsp-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstrtsp-0.10.so -> libgstrtsp-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstrtsp-0.10.so.0 -> libgstrtsp-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstrtsp-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstsdp-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstsdp-0.10.so -> libgstsdp-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstsdp-0.10.so.0 -> libgstsdp-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstsdp-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstsdp-0.10.so -> libgstsdp-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstsdp-0.10.so.0 -> libgstsdp-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstsdp-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgsttag-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgsttag-0.10.so -> libgsttag-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgsttag-0.10.so.0 -> libgsttag-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgsttag-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgsttag-0.10.so -> libgsttag-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgsttag-0.10.so.0 -> libgsttag-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgsttag-0.10.so.0.20.0
 -rwxr-xr-x	root/root	usr/lib/libgstvideo-0.10.la
-lrwxrwxrwx	root/root	usr/lib/libgstvideo-0.10.so -> libgstvideo-0.10.so.0.19.2
-lrwxrwxrwx	root/root	usr/lib/libgstvideo-0.10.so.0 -> libgstvideo-0.10.so.0.19.2
--rwxr-xr-x	root/root	usr/lib/libgstvideo-0.10.so.0.19.2
+lrwxrwxrwx	root/root	usr/lib/libgstvideo-0.10.so -> libgstvideo-0.10.so.0.20.0
+lrwxrwxrwx	root/root	usr/lib/libgstvideo-0.10.so.0 -> libgstvideo-0.10.so.0.20.0
+-rwxr-xr-x	root/root	usr/lib/libgstvideo-0.10.so.0.20.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-app-0.10.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-audio-0.10.pc
@@ -242,193 +242,6 @@ drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/GstSdp-0.10.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/GstTag-0.10.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/GstVideo-0.10.gir
-drwxr-xr-x	root/root	usr/share/gtk-doc/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/api-index-deprecated.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/api-index-full.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/compiling.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/compiling.sgml
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-0.10.devhelp
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-0.10.devhelp2
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-appsink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-appsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudio.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudioclock.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudiofilter.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudiomixerutils.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudiosink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstaudiosrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstbaseaudiosink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstbaseaudiosrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstbasertpaudiopayload.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstbasertpdepayload.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstbasertppayload.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstcddabasesrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstcolorbalance.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstcolorbalancechannel.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstfft.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstfftf32.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstfftf64.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstffts16.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstffts32.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstfloatcast.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstmixer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstmixeroptions.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstmixertrack.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstmultichannel.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstnavigation.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstnetbuffer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstpbutils.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstpbutilsdescriptions.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstpbutilsinstallplugins.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstpbutilsmissingplugins.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstpropertyprobe.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstriff.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstringbuffer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtcpbuffer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtpbuffer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtppayloads.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtspbase64.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtspconnection.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtspdefs.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtspmessage.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtsprange.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtsptransport.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstrtspurl.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstsdpmessage.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gststreamvolume.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttag.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttagdemux.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttagid3.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttaglanguagecodes.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttagvorbis.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttuner.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttunerchannel.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gsttunernorm.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstvideo.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstvideofilter.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstvideoorientation.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstvideosink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gst-plugins-base-libs-gstxoverlay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-app.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-audio.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-base-utils.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-cdda.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-ffft.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-floatcast.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-interfaces.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-libs-hierarchy.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-netbuffer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-plugins-base.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-riff.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-rtp.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-rtsp.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-sdp.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-tag.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/gstreamer-video.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/home.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/index.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/index.sgml
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/left.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/right.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/style.css
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-libs-0.10/up.png
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/GstPlayBaseBin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/ch01.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/ch02.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/ch03.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-0.10.devhelp
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-0.10.devhelp2
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-adder.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-alsamixer.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-alsasink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-alsasrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-appsink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-appsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-audioconvert.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-audiorate.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-audioresample.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-audiotestsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-cdparanoiasrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-clockoverlay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-decodebin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-decodebin2.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-ffmpegcolorspace.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-gdpdepay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-gdppay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-giosink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-giosrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-giostreamsink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-giostreamsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-gnomevfssink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-gnomevfssrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-multifdsink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-oggdemux.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-oggmux.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-playbin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-playbin2.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-adder.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-alsa.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-app.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-audioconvert.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-audiorate.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-audioresample.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-audiotestsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-cdparanoia.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-decodebin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-decodebin2.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-ffmpegcolorspace.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-gdp.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-gio.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-gnomevfs.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-libvisual.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-ogg.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-pango.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-playback.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-subparse.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-tcp.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-theora.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-typefindfunctions.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-uridecodebin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-video4linux.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-videorate.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-videoscale.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-videotestsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-volume.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-vorbis.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-ximagesink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-plugin-xvimagesink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-subtitleoverlay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-tcpclientsink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-tcpclientsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-tcpserversink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-tcpserversrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-textoverlay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-textrender.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-theoradec.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-theoraenc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-theoraparse.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-timeoverlay.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-uridecodebin.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-videorate.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-videoscale.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-videotestsrc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-volume.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-vorbisdec.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-vorbisenc.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-vorbisparse.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-vorbistag.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-ximagesink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/gst-plugins-base-plugins-xvimagesink.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/home.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/index.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/index.sgml
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/left.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/right.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/style.css
--rw-r--r--	root/root	usr/share/gtk-doc/html/gst-plugins-base-plugins-0.10/up.png
 drwxr-xr-x	root/root	usr/share/locale/
 drwxr-xr-x	root/root	usr/share/locale/fr/
 drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
