@@ -5,7 +5,7 @@
 # Depends on:gnome-python-extras,gtkspell,gconf, alsa-lib
 
 name=gramps
-version=3.1.2
+version=3.2.3
 release=1
 source=(http://downloads.sourceforge.net/gramps/$name-$version.tar.gz)
 
