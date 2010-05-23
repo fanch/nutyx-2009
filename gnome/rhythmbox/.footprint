@@ -21,18 +21,15 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/artdisplay/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/CoverArtDatabase.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/CoverArtDatabase.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/CoverArtDatabase.pyo
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/DiscogsCoverArtSearch.py
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/DiscogsCoverArtSearch.pyc
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/DiscogsCoverArtSearch.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/EmbeddedCoverArtSearch.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/EmbeddedCoverArtSearch.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/EmbeddedCoverArtSearch.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LastFMCoverArtSearch.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LastFMCoverArtSearch.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LastFMCoverArtSearch.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearch.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearch.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearch.pyo
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearchGIO.py
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearchGIO.pyc
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/LocalCoverArtSearchGIO.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/MusicBrainzCoverArtSearch.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/MusicBrainzCoverArtSearch.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/MusicBrainzCoverArtSearch.pyo
@@ -43,6 +40,7 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/artdisplay/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/__init__.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/__init__.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/artdisplay.rb-plugin
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/lastfm_red_small.png
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/artdisplay/rhythmbox-missing-artwork.svg
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/audiocd/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/audiocd/album-info.ui
@@ -62,7 +60,6 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/cd-recorder/cd-recorder.rb-plugin
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/libcd-recorder.la
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/libcd-recorder.so
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/cd-recorder/recorder.ui
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/context/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/context/AlbumTab.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/context/AlbumTab.pyc
@@ -105,6 +102,7 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/fmradio/
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/fmradio/libfmradio.la
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/fmradio/libfmradio.so
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/generic-player/
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/generic-player/generic-player-info.ui
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/generic-player/generic-player-ui.xml
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/generic-player/generic-player.rb-plugin
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/generic-player/libgeneric-player.la
@@ -165,6 +163,12 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/lyrics/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsParse.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsParse.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsParse.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsSites.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsSites.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/LyricsSites.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/TerraParser.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/TerraParser.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/TerraParser.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/WinampcnParser.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/WinampcnParser.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/lyrics/WinampcnParser.pyo
@@ -188,7 +192,6 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/magnatune/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/__init__.pyo
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune-loading.ui
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune-prefs.ui
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune-purchase.ui
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune.rb-plugin
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune_logo_color_small.png
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/magnatune/magnatune_logo_color_tiny.png
@@ -199,6 +202,7 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/mmkeys/
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/mtpdevice/
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/mtpdevice/libmtpdevice.la
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/mtpdevice/libmtpdevice.so
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/mtpdevice/mtp-info.ui
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/mtpdevice/mtp-ui.xml
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/mtpdevice/mtpdevice.rb-plugin
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/power-manager/
@@ -226,6 +230,23 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/rb/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/rb/stringmatch.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/rb/stringmatch.pyc
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/rb/stringmatch.pyo
+drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/replaygain/
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/__init__.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/__init__.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/__init__.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/config.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/config.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/config.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/player.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/player.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/player.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/replaygain-prefs.ui
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/replaygain/replaygain.rb-plugin
+drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/sendto/
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/sendto/__init__.py
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/sendto/__init__.pyc
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/sendto/__init__.pyo
+-rw-r--r--	root/root	usr/lib/rhythmbox/plugins/sendto/sendto.rb-plugin
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/status-icon/
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/status-icon/libstatus-icon.la
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/status-icon/libstatus-icon.so
@@ -409,6 +430,22 @@ lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/oc/figures/rb-volume-changer
 lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/oc/figures/rb-window-small.png -> ../../C/figures/rb-window-small.png
 lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/oc/figures/rb-window.png -> ../../C/figures/rb-window.png
 -rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/oc/rhythmbox.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/pt/
+drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/pt/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-iradio-main.png -> ../../C/figures/rb-iradio-main.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-notification-area-menu.png -> ../../C/figures/rb-notification-area-menu.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-notification-window.png -> ../../C/figures/rb-notification-window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-notification-zone.png -> ../../C/figures/rb-notification-zone.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-podcast-main.png -> ../../C/figures/rb-podcast-main.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-statusbar.png -> ../../C/figures/rb-statusbar.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-toolbar-prevplaynext.png -> ../../C/figures/rb-toolbar-prevplaynext.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-toolbar-repeat.png -> ../../C/figures/rb-toolbar-repeat.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-toolbar-shuffle.png -> ../../C/figures/rb-toolbar-shuffle.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-toolbar.png -> ../../C/figures/rb-toolbar.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-volume-changer.png -> ../../C/figures/rb-volume-changer.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-window-small.png -> ../../C/figures/rb-window-small.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/pt/figures/rb-window.png -> ../../C/figures/rb-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/pt/rhythmbox.xml
 drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/ru/
 drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/ru/figures/
 lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/ru/figures/rb-iradio-main.png -> ../../C/figures/rb-iradio-main.png
@@ -441,6 +478,22 @@ lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/sv/figures/rb-volume-changer
 -rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/sv/figures/rb-window-small.png
 -rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/sv/figures/rb-window.png
 -rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/sv/rhythmbox.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/uk/
+drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/uk/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-iradio-main.png -> ../../C/figures/rb-iradio-main.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-notification-area-menu.png -> ../../C/figures/rb-notification-area-menu.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-notification-window.png -> ../../C/figures/rb-notification-window.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-notification-zone.png -> ../../C/figures/rb-notification-zone.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-podcast-main.png -> ../../C/figures/rb-podcast-main.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-statusbar.png -> ../../C/figures/rb-statusbar.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-toolbar-prevplaynext.png -> ../../C/figures/rb-toolbar-prevplaynext.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-toolbar-repeat.png -> ../../C/figures/rb-toolbar-repeat.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-toolbar-shuffle.png -> ../../C/figures/rb-toolbar-shuffle.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-toolbar.png -> ../../C/figures/rb-toolbar.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-volume-changer.png -> ../../C/figures/rb-volume-changer.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-window-small.png -> ../../C/figures/rb-window-small.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/rhythmbox/uk/figures/rb-window.png -> ../../C/figures/rb-window.png
+-rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/uk/rhythmbox.xml
 drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/zh_CN/
 drwxr-xr-x	root/root	usr/share/gnome/help/rhythmbox/zh_CN/figures/
 -rw-r--r--	root/root	usr/share/gnome/help/rhythmbox/zh_CN/figures/rb-iradio-main.png
@@ -468,6 +521,8 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/rhythmbox.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/places/
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/places/music-library.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/rhythmbox.png
@@ -481,6 +536,10 @@ drwxr-xr-x	root/root	usr/share/locale/
 drwxr-xr-x	root/root	usr/share/locale/fr/
 drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/rhythmbox.mo
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/rhythmbox-client.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rhythmbox.1.gz
 drwxr-xr-x	root/root	usr/share/omf/
 drwxr-xr-x	root/root	usr/share/omf/rhythmbox/
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-C.omf
@@ -492,8 +551,10 @@ drwxr-xr-x	root/root	usr/share/omf/rhythmbox/
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-fr.omf
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-it.omf
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-oc.omf
+-rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-pt.omf
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-ru.omf
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-sv.omf
+-rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-uk.omf
 -rw-r--r--	root/root	usr/share/omf/rhythmbox/rhythmbox-zh_CN.omf
 drwxr-xr-x	root/root	usr/share/rhythmbox/
 -rw-r--r--	root/root	usr/share/rhythmbox/create-playlist.ui
@@ -514,6 +575,7 @@ drwxr-xr-x	root/root	usr/share/rhythmbox/icons/hicolor/16x16/actions/
 drwxr-xr-x	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/
 -rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/library-internet-radio.png
 -rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/library-podcast.png
+-rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/music-library.png
 -rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/playlist-automatic.png
 -rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/16x16/places/playlist.png
 drwxr-xr-x	root/root	usr/share/rhythmbox/icons/hicolor/16x16/status/
@@ -572,6 +634,7 @@ drwxr-xr-x	root/root	usr/share/rhythmbox/icons/hicolor/scalable/places/
 drwxr-xr-x	root/root	usr/share/rhythmbox/icons/hicolor/scalable/status/
 -rw-r--r--	root/root	usr/share/rhythmbox/icons/hicolor/scalable/status/rhythmbox-notplaying.svg
 -rw-r--r--	root/root	usr/share/rhythmbox/library-prefs.ui
+-rw-r--r--	root/root	usr/share/rhythmbox/media-player-properties.ui
 -rw-r--r--	root/root	usr/share/rhythmbox/playback-prefs.ui
 -rw-r--r--	root/root	usr/share/rhythmbox/playlist-save.ui
 -rw-r--r--	root/root	usr/share/rhythmbox/playlists.xml
