@@ -7,7 +7,7 @@
 name=playonlinux
 version=3.7.6
 release=1
-source=(http://www.playonlinux.com/script_files/PlayOnLinux/$version/PlayOnLinux_${version}.tar.gz PlayOnLinux.desktop)
+source=(http://www.playonlinux.com/script_files/PlayOnLinux/$version/PlayOnLinux_${version}.tar.gz)
 
 build() {
     
@@ -26,8 +26,5 @@ exit \$?
 EndScript
 
     chmod +x $PKG/usr/bin/playonlinux
-install -D -m644 $SRC/$name/etc/playonlinux32.png $PKG/usr/share/pixmaps/playonlinux32.png 
-install -D -m644 $SRC/PlayOnLinux.desktop $PKG/usr/share/applications/playonlinux.desktop
-
 
 }
