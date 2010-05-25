@@ -5,9 +5,9 @@
 # Depends on: exo, dbus, desktop-file-utils, freetype, gamin, gconf, gtk, hal, libexif, libjpeg, libpng, librsvg, xfce4-panel, libxfce4util, pcre, shared-mime-info, startup-notification, xfconf
 
 name=thunar
-version=1.0.1
-release=2
-source=(http://www.xfce.org/archive/xfce-4.6.1/src/Thunar-$version.tar.bz2 \
+version=1.0.2
+release=1
+source=(http://mocha.xfce.org/archive/xfce-4.6.2/src/Thunar-$version.tar.bz2 \
 thunar-volman-handle-unmountable-volumes.patch)
 
 build() {

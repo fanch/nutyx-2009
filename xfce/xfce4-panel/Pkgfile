@@ -5,9 +5,9 @@
 # Depends on: cairo, dbus-glib, exo, libxfcegui4, libxfce4util, libwnck, startup-notification, xfconf
 
 name=xfce4-panel
-version=4.6.3
+version=4.6.4
 release=1
-source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+source=(http://mocha.xfce.org/archive/xfce-4.6.2/src/$name-$version.tar.bz2)
 
 build() {
 cd $name-$version
