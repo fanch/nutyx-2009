@@ -1,28 +1,24 @@
 # Description: client messagerie evolution
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: gtk-doc, gtkhtml, gnome-doc-utils, evolution-data-server, nss, hal, dbus-glib, gstreamer, libnotify, intltool
-# Group: gnome/desktop
+# Depends on: gtk-doc, libunique, libpst, libcanberra, gtkhtml, gtkimageview, gnome-doc-utils, evolution-data-server, gnome-desktop, networkmanager, nss, hal, dbus-glib, gstreamer, libnotify, intltool
 
 name=evolution
-version=2.26.3
+version=2.30.1.2
 release=1
-source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version%.*}/$name-$version.tar.bz2\
+source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version%.*.*}/$name-$version.tar.bz2\
 	configure.patch)
 
 build() {
 	cd $name-$version
-	patch -Np0 -i ../configure.patch
 	./configure --prefix=$GNOME_PREFIX \
 		--sysconfdir=/etc \
             --libexecdir=$GNOME_PREFIX/lib/ \
             --enable-nntp \
             --enable-nss \
-		--with-nspr-includes=/usr/include/nspr \
-		--with-nss-includes=/usr/include/nss \
-            --enable-smime 
+		--enable-smime
 		
-	make
+	make -j3
 	make DESTDIR=$PKG install
 
 }
