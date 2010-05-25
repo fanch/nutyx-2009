@@ -1,7 +1,7 @@
 # Description: GNOME PolicyKit
 # URL: n/a
 # Maintainer: Matt Housh, jaeger at morpheus dot net
-# Depends on: policykit, dbus-glib, gtk, libgnome, libgnomeui
+# Depends on: policykit, dbus-glib, gtk, libgnome, libgnomeui, gnome-doc-utils
 
 name=policykit-gnome
 version=0.9.2
