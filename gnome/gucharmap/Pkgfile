@@ -5,7 +5,7 @@
 # Depends on: gtk, p5-xml-parser, gconf, gtk-doc
 
 name=gucharmap
-version=2.30.0
+version=2.30.1
 release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/2.30/$name-$version.tar.bz2)
 

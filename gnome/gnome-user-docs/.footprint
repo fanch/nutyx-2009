@@ -585,6 +585,47 @@ lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/sv/figures/stickywi
 lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/sv/figures/text_box.png -> ../../C/figures/text_box.png
 lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/sv/figures/tree.png -> ../../C/figures/tree.png
 -rw-r--r--	root/root	usr/share/gnome/help/gnome-access-guide/sv/gnome-access-guide.xml
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-access-guide/uk/
+drwxr-xr-x	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/Braille_Tab.png -> ../../C/figures/Braille_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/General_Tab.png -> ../../C/figures/General_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/KeyBindings_Tab.png -> ../../C/figures/KeyBindings_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/KeyBindings_Tab_Unbound.png -> ../../C/figures/KeyBindings_Tab_Unbound.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/KeyEcho_Tab.png -> ../../C/figures/KeyEcho_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/Magnifier_Advanced.png -> ../../C/figures/Magnifier_Advanced.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/Magnifier_Tab.png -> ../../C/figures/Magnifier_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/MainWindow.png -> ../../C/figures/MainWindow.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/Pronunciation_Tab.png -> ../../C/figures/Pronunciation_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/RPM_search_gnome_common.png -> ../../C/figures/RPM_search_gnome_common.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/Speech_Tab.png -> ../../C/figures/Speech_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/TextAttributes_Tab.png -> ../../C/figures/TextAttributes_Tab.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/accessx.png -> ../../C/figures/accessx.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/bouncekeys.png -> ../../C/figures/bouncekeys.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/button.png -> ../../C/figures/button.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/check_box.png -> ../../C/figures/check_box.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/dropdown_combination_box.png -> ../../C/figures/dropdown_combination_box.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/dropdown_list_box.png -> ../../C/figures/dropdown_list_box.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/mousekeys.png -> ../../C/figures/mousekeys.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/move_object_arrows.png -> ../../C/figures/move_object_arrows.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/move_object_before.png -> ../../C/figures/move_object_before.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/move_object_jump.png -> ../../C/figures/move_object_jump.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/move_object_push.png -> ../../C/figures/move_object_push.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/radio_button.png -> ../../C/figures/radio_button.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/slider.png -> ../../C/figures/slider.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/slowkeys.png -> ../../C/figures/slowkeys.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/spin_box.png -> ../../C/figures/spin_box.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyaltlatch.png -> ../../C/figures/stickyaltlatch.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyaltlock.png -> ../../C/figures/stickyaltlock.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyctrllatch.png -> ../../C/figures/stickyctrllatch.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyctrllock.png -> ../../C/figures/stickyctrllock.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyshiftlatch.png -> ../../C/figures/stickyshiftlatch.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickyshiftlock.png -> ../../C/figures/stickyshiftlock.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickywindowlatch.png -> ../../C/figures/stickywindowlatch.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/stickywindowlock.png -> ../../C/figures/stickywindowlock.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/tabbed_section.png -> ../../C/figures/tabbed_section.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/text_box.png -> ../../C/figures/text_box.png
+lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/uk/figures/tree.png -> ../../C/figures/tree.png
+-rw-r--r--	root/root	usr/share/gnome/help/gnome-access-guide/uk/gnome-access-guide.xml
 drwxr-xr-x	root/root	usr/share/gnome/help/gnome-access-guide/zh_CN/
 drwxr-xr-x	root/root	usr/share/gnome/help/gnome-access-guide/zh_CN/figures/
 lrwxrwxrwx	root/root	usr/share/gnome/help/gnome-access-guide/zh_CN/figures/Braille_Tab.png -> ../../C/figures/Braille_Tab.png
@@ -2510,6 +2551,7 @@ drwxr-xr-x	root/root	usr/share/omf/gnome-access-guide/
 -rw-r--r--	root/root	usr/share/omf/gnome-access-guide/gnome-access-guide-pt.omf
 -rw-r--r--	root/root	usr/share/omf/gnome-access-guide/gnome-access-guide-ru.omf
 -rw-r--r--	root/root	usr/share/omf/gnome-access-guide/gnome-access-guide-sv.omf
+-rw-r--r--	root/root	usr/share/omf/gnome-access-guide/gnome-access-guide-uk.omf
 -rw-r--r--	root/root	usr/share/omf/gnome-access-guide/gnome-access-guide-zh_CN.omf
 drwxr-xr-x	root/root	usr/share/omf/system-admin-guide/
 -rw-r--r--	root/root	usr/share/omf/system-admin-guide/system-admin-guide-C.omf

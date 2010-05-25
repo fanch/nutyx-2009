@@ -1610,13 +1610,32 @@ drwxr-xr-x	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/audio-volume-medium.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/audio-volume-muted.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/connect_creating.png -> network-transmit-receive.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/connect_established.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/connect_no.png -> network-offline.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/edittrash.png -> user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/folder-drag-accept.icon
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/folder-drag-accept.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-fs-directory-accept.icon -> folder-drag-accept.icon
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-fs-directory-accept.png -> folder-drag-accept.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-fs-trash-full.png -> user-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-disconn.png -> network-offline.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-error.png -> network-error.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-idle.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-rx.png -> network-receive.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-tx.png -> network-transmit.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-netstatus-txrx.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/gnome-stock-trash-full.png -> user-trash-full.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-error.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-idle.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-offline.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-receive.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-transmit-receive.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/network-transmit.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/nm-adhoc.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/nm-device-wired.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/nm-device-wireless.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/nm-no-connection.png -> network-offline.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/stock_trash_full.png -> user-trash-full.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/stock_volume-0.png -> audio-volume-low.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrint/48x48/status/stock_volume-max.png -> audio-volume-high.png
@@ -2099,15 +2118,34 @@ drwxr-xr-x	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/audio-volume-muted.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/battery-caution.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/battery-low.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/connect_creating.png -> network-transmit-receive.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/connect_established.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/connect_no.png -> network-offline.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/edittrash.png -> user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/folder-drag-accept.icon
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/folder-drag-accept.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-fs-directory-accept.icon -> folder-drag-accept.icon
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-fs-directory-accept.png -> folder-drag-accept.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-fs-trash-full.png -> user-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-disconn.png -> network-offline.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-error.png -> network-error.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-idle.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-rx.png -> network-receive.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-tx.png -> network-transmit.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-netstatus-txrx.png -> network-transmit-receive.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/gnome-stock-trash-full.png -> user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/media-playlist-repeat.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/media-playlist-shuffle.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-error.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-idle.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-offline.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-receive.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-transmit-receive.png
+-rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/network-transmit.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/nm-adhoc.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/nm-device-wired.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/nm-device-wireless.png -> network-idle.png
+lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/nm-no-connection.png -> network-offline.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/printer-error.png
 -rw-r--r--	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/printer-printing.png
 lrwxrwxrwx	root/root	usr/share/icons/HighContrastLargePrintInverse/48x48/status/stock_repeat.png -> media-playlist-repeat.png
