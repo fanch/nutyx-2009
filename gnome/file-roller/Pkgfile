@@ -2,7 +2,7 @@
 # URL: http://www.gnome.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: libgnomeui, gnome-doc-utils, rarian
+# Depends on: libgnomeui, gnome-doc-utils, rarian, nautilus
 
 name=file-roller
 version=2.30.0
