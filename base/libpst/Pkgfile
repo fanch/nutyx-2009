@@ -1,0 +1,26 @@
+# Description: Filtre d'importation pour outlook
+# URL: http://www.five-ten-sg.com/libpst/
+# Maintainer: NuTyX core team
+# Packager: thierryn1 at hispeed dot ch
+# Depends on: python, boost
+name=libpst
+version=0.6.41
+release=1
+source=(http://www.five-ten-sg.com/libpst/packages/$name-$version.tar.gz\
+	fix-linking.patch)
+
+build() {
+cd $name-$version
+patch -Np1 -i ../fix-linking.patch
+libtoolize --force
+aclocal -I m4
+autoconf
+automake
+	./configure --prefix=/usr \
+	--mandir=/usr/share/man \
+	--enable-libpst-shared \
+	--disable-dii \
+	--disable-static
+	make
+	make DESTDIR=$PKG install
+}
