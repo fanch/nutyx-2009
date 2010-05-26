@@ -6,9 +6,8 @@
 
 name=gtkimageview
 version=1.6.4
-release=1
+release=2
 source=()
-
 
 build() {
 	wget http://trac.bjourne.webfactional.com/attachment/wiki/WikiStart/$name-$version.tar.gz?format=raw
