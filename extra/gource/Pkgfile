@@ -1,0 +1,16 @@
+# Description: Visionneur d'historique de git/cvs/svn/bazaar en vidéo
+# URL: http://code.google.com/p/gource
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+# Depends on: sdl sdl_image pcre libjpeg libpng ftgl
+name=gource
+version=0.26b
+release=1
+source=(http://gource.googlecode.com/files/$name-$version.tar.gz)
+build() {
+
+cd $name-$version
+        ./configure --prefix=/usr
+        make
+        make DESTDIR=$PKG install
+}
