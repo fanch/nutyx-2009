@@ -5,7 +5,7 @@
 # Depends on: qt, qca
 name=psi
 version=0.14
-release=2
+release=3
 source=(http://ovh.dl.sourceforge.net/project/psi/Psi/0.14/psi-0.14.tar.gz http://psi-im.org/download/lang/psi_fr.qm http://psi-im.org/download/lang/qt_fr.qm)
 build() {
 mkdir -p $PKG/usr/bin $PKG/usr/share/pixmaps $PKG/usr/share/psi/
@@ -14,7 +14,7 @@ mv psi_fr.qm $PKG/usr/share/psi
 cd $name-$version
         ./configure --prefix=/usr
         make
-        make DESTDIR=$PKG install
+        make INSTALL_ROOT=$PKG install
 	install -m 644 iconsets/system/default/logo_64.png $PKG/usr/share/pixmaps
 }
 
