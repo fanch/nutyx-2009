@@ -7,10 +7,14 @@
 name=gtkimageview
 version=1.6.4
 release=1
-source=(http://trac.bjourne.webfactional.com/attachment/wiki/WikiStart/$name-$version.tar.gz)
+source=()
 
 
 build() {
+	wget http://trac.bjourne.webfactional.com/attachment/wiki/WikiStart/$name-$version.tar.gz?format=raw
+	mv $SRC/$name-$version.tar.gz?format=raw $SRC/$name-$version.tar.gz
+	tar -xvf $SRC/$name-$version.tar.gz
+	
 	cd $name-$version
 	./configure --prefix=/usr \
 		--mandir=/usr/share/man \
