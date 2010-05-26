@@ -1,0 +1,19 @@
+# Description: Librairie de rendu de texte OpenGL 
+# URL: http://sourceforge.net/projects/ftgl/develop
+# Maintainer: NuTyX core team
+# Packager: charles dot rapenne at gmail dot com
+# Depends on: 
+name=ftgl
+version=2.1.3-rc5
+_version=2.1.3~rc5
+release=1
+source=(http://sunet.dl.sourceforge.net/project/$name/FTGL%20Source/$_version/$name-$version.tar.bz2)
+build() {
+
+cd $name-$_version
+        ./configure --prefix=/usr
+        make
+        make DESTDIR=$PKG install
+
+}
+
