@@ -2,7 +2,7 @@
 # URL: http://www.gnome.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: gstreamer, rarian, esound, libgnomeui, gst-plugins-base, gst-plugins-good, nautilus-cd-burner, alsa-utils
+# Depends on: gstreamer, rarian, esound, libgnomeui, gst-plugins-base, gst-plugins-good, nautilus-cd-burner, alsa-utils, libcanberra
 
 name=gnome-media
 version=2.30.0
