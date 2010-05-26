@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gource
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gource/
+-rw-r--r--	root/root	usr/share/gource/beam.png
+-rw-r--r--	root/root	usr/share/gource/bloom.tga
+-rw-r--r--	root/root	usr/share/gource/file.png
+drwxr-xr-x	root/root	usr/share/gource/fonts/
+-rw-r--r--	root/root	usr/share/gource/fonts/FreeSans.ttf
+-rw-r--r--	root/root	usr/share/gource/fonts/README
+-rw-r--r--	root/root	usr/share/gource/gource.style
+-rw-r--r--	root/root	usr/share/gource/no_photo.png
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/gource.1.gz
