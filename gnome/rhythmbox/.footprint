@@ -60,7 +60,6 @@ drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/cd-recorder/cd-recorder.rb-plugin
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/libcd-recorder.la
 -rwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/cd-recorder/libcd-recorder.so
--rw-r--r--	root/root	usr/lib/rhythmbox/plugins/cd-recorder/recorder.ui
 drwxr-xr-x	root/root	usr/lib/rhythmbox/plugins/context/
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/context/AlbumTab.py
 -rw-r--r--	root/root	usr/lib/rhythmbox/plugins/context/AlbumTab.pyc

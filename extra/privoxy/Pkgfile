@@ -1,0 +1,42 @@
+# Description: Un proxy Web
+# URL: http://www.privoxy.org
+# Maintainer: NuTyX core team
+# Packager: fanch
+# Depends on: pcre, zlib
+
+name=privoxy
+version=3.0.16
+release=1
+source=(http://downloads.sourceforge.net/ijbswa/$name-$version-stable-src.tar.gz
+        'privoxy'
+        'privoxy.logrotated'
+        'privoxy.confd')
+build() {
+	GROUP_ID=42
+  cd $SRC/$name-$version-stable
+  autoheader && autoconf
+  ./configure --prefix=/usr --sysconfdir=/etc/privoxy
+  make 
+  make prefix=$PKG/usr MAN_DEST=$PKG/usr/share/man/man1 \
+    GROUP=$GROUP_ID CONF_BASE=$PKG/etc/privoxy VAR_DEST=$PKG/var \
+    install
+
+  rm $PKG/var/log/privoxy/* # don't overwrite existing logfiles!
+  install -D -m755 ${SRC}/privoxy $PKG/etc/rc.d/privoxy
+  install -D -m644 ${SRC}/privoxy.logrotated $PKG/etc/logrotate.d/privoxy
+  install -D -m644 ${SRC}/privoxy.confd $PKG/etc/conf.d/privoxy
+  # fix the config paths
+  sed -i \
+    -e 's|^confdir.*$|confdir /etc/privoxy|' \
+    -e 's|^logdir.*$|logdir /var/log/privoxy|' \
+    -e '/^user-manual/s/.*/#user-manual \/usr\/share\/doc\/privoxy\/user-manual\//' \
+    $PKG/etc/privoxy/config
+
+  # fix permissions
+  chgrp -R $GROUP_ID $PKG/etc/privoxy/
+  find $PKG/etc/privoxy/ -type d | xargs chmod 770
+  find $PKG/etc/privoxy/ -type f | xargs chmod 660
+  chmod 770 $PKG/var/log/privoxy
+  chgrp -R ${GROUP_ID} $PKG/var/log/privoxy/
+
+}
