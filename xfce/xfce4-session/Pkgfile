@@ -5,9 +5,9 @@
 # Depends on: dbus, libxfce4util, libxfcegui4, libwnck, p5-xml-parser, sudo, xorg-iceauth
 
 name=xfce4-session
-version=4.6.1
+version=4.6.2
 release=1
-source=(http://www.xfce.org/archive/xfce-$version/src/$name-$version.tar.bz2)
+source=(http://mocha.xfce.org/archive/xfce-4.6.2/src/$name-$version.tar.bz2)
 
 build() {
 cd $name-$version

@@ -4,9 +4,9 @@
 # Packager: thierryn1 at hispeed dot ch
 
 name=p5-uri
-version=1.52
+version=1.54
 release=1
-source=(ftp://ftp.demon.co.uk/pub/CPAN/modules/by-module/URI/URI-$version.tar.gz)
+source=(ftp://ftp.funet.fi/pub/languages/perl/CPAN/modules/by-module/URI/URI-$version.tar.gz)
 
 build() {
 cd URI-$version
@@ -15,4 +15,3 @@ cd URI-$version
 	make DESTDIR=$PKG install
 	find $PKG -name perllocal.pod | xargs rm
 }
-
