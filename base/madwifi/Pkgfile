@@ -4,12 +4,26 @@
 # Packager: guy 
 
 name=madwifi
-version=0.9.4.4100
+
+version=0.9.4.4128
+
+_version=trunk
+snapshot=r4128-20100325
+_kernver=2.6.33-NuTyX
 release=1
-source=(ftp://ftp.archlinux.org/other/$name/$name-$version.tar.bz2)
+
+#source=(ftp://ftp.archlinux.org/other/$name/$name-$version.tar.bz2)
+
+source=(http://snapshots.madwifi-project.org/madwifi-trunk/madwifi-trunk-$snapshot.tar.gz)
 
 build() {
-    cd $name
+    cd $name-${_version}-$snapshot
+
+	sed -i -e 's/-Werror//g' Makefile.inc
+  	make KERNELPATH=/lib/modules/$_kernver/build KERNELRELEASE=$_kernver modules
+  	make KERNELPATH=/lib/modules/$_kernver/build KERNELRELEASE=$_kernver modules \
+       	     DESTDIR=$SRC/pkg KERNELRELEASE=$_kernver install-modules
+
     make 
     make DESTDIR=$PKG BINDIR=/usr/bin MANDIR=/usr/share/man install
 }
