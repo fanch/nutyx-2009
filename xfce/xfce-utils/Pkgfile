@@ -5,9 +5,9 @@
 # Depends on: dbus, libxfce4util, libxfcegui4, p5-xml-parser
 
 name=xfce-utils
-version=4.6.1
+version=4.6.2
 release=1
-source=(http://www.xfce.org/archive/xfce-$version/src/$name-$version.tar.bz2)
+source=(http://archive.xfce.org/src/xfce/$name/4.6/$name-$version.tar.bz2)
 
 build() {
 cd $name-$version
