@@ -2,9 +2,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/Terminal
 lrwxrwxrwx	root/root	usr/bin/terminal -> Terminal
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/xfce4/
--rwxr-xr-x	root/root	usr/lib/xfce4/TerminalHelp
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/Terminal/
 -rw-r--r--	root/root	usr/share/Terminal/Terminal-toolbars.ui
@@ -90,6 +87,17 @@ lrwxrwxrwx	root/root	usr/share/doc/Terminal/gl/images -> /usr/share/doc/Terminal
 -rw-r--r--	root/root	usr/share/doc/Terminal/gl/preferences.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/gl/support.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/gl/usage.html
+drwxr-xr-x	root/root	usr/share/doc/Terminal/hr/
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/advanced.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/command-line.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/copyright.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/faq.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/getting-started.html
+lrwxrwxrwx	root/root	usr/share/doc/Terminal/hr/images -> /usr/share/doc/Terminal/C/images
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/index.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/preferences.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/support.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/hr/usage.html
 drwxr-xr-x	root/root	usr/share/doc/Terminal/id/
 -rw-r--r--	root/root	usr/share/doc/Terminal/id/advanced.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/id/command-line.html
@@ -145,7 +153,29 @@ lrwxrwxrwx	root/root	usr/share/doc/Terminal/pt/images -> /usr/share/doc/Terminal
 -rw-r--r--	root/root	usr/share/doc/Terminal/pt/preferences.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/pt/support.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/pt/usage.html
+drwxr-xr-x	root/root	usr/share/doc/Terminal/ru/
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/advanced.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/command-line.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/copyright.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/faq.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/getting-started.html
+lrwxrwxrwx	root/root	usr/share/doc/Terminal/ru/images -> /usr/share/doc/Terminal/C/images
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/index.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/preferences.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/support.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ru/usage.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/terminal.css
+drwxr-xr-x	root/root	usr/share/doc/Terminal/ug/
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/advanced.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/command-line.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/copyright.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/faq.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/getting-started.html
+lrwxrwxrwx	root/root	usr/share/doc/Terminal/ug/images -> /usr/share/doc/Terminal/C/images
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/index.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/preferences.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/support.html
+-rw-r--r--	root/root	usr/share/doc/Terminal/ug/usage.html
 drwxr-xr-x	root/root	usr/share/doc/Terminal/zh_CN/
 -rw-r--r--	root/root	usr/share/doc/Terminal/zh_CN/advanced.html
 -rw-r--r--	root/root	usr/share/doc/Terminal/zh_CN/command-line.html
@@ -207,6 +237,9 @@ drwxr-xr-x	root/root	usr/share/man/fr/man1/
 drwxr-xr-x	root/root	usr/share/man/gl/
 drwxr-xr-x	root/root	usr/share/man/gl/man1/
 -rw-r--r--	root/root	usr/share/man/gl/man1/Terminal.1.gz
+drwxr-xr-x	root/root	usr/share/man/hr/
+drwxr-xr-x	root/root	usr/share/man/hr/man1/
+-rw-r--r--	root/root	usr/share/man/hr/man1/Terminal.1.gz
 drwxr-xr-x	root/root	usr/share/man/id/
 drwxr-xr-x	root/root	usr/share/man/id/man1/
 -rw-r--r--	root/root	usr/share/man/id/man1/Terminal.1.gz
@@ -221,6 +254,12 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 drwxr-xr-x	root/root	usr/share/man/pt/
 drwxr-xr-x	root/root	usr/share/man/pt/man1/
 -rw-r--r--	root/root	usr/share/man/pt/man1/Terminal.1.gz
+drwxr-xr-x	root/root	usr/share/man/ru/
+drwxr-xr-x	root/root	usr/share/man/ru/man1/
+-rw-r--r--	root/root	usr/share/man/ru/man1/Terminal.1.gz
+drwxr-xr-x	root/root	usr/share/man/ug/
+drwxr-xr-x	root/root	usr/share/man/ug/man1/
+-rw-r--r--	root/root	usr/share/man/ug/man1/Terminal.1.gz
 drwxr-xr-x	root/root	usr/share/man/zh_CN/
 drwxr-xr-x	root/root	usr/share/man/zh_CN/man1/
 -rw-r--r--	root/root	usr/share/man/zh_CN/man1/Terminal.1.gz
