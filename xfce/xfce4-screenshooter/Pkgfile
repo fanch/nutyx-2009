@@ -5,12 +5,14 @@
 # Depends on: xfce4-panel
 
 name=xfce4-screenshooter
-version=1.5.1
+version=1.7.9
 release=1
-source=(http://goodies.xfce.org/releases/$name/$name-$version.tar.gz)
+source=(http://archive.xfce.org/src/apps/$name/1.7/$name-$version.tar.bz2
+        xfce4-screenshooter-1.7.9-dsofix.patch)
 
 build() {
-cd $name-$version
+  cd $name-$version
+	patch -Np1 -i $SRC/xfce4-screenshooter-1.7.9-dsofix.patch 
 	./configure --prefix=/usr \
 	--sysconfdir=/etc \
 	--libexecdir=/usr/lib/xfce4 \
@@ -19,4 +21,3 @@ cd $name-$version
 	make
 	make DESTDIR=$PKG install
 }
-
