@@ -2,10 +2,10 @@
 # URL: http://libburnia.pykix.org/
 # Maintainer: NuTyX core team
 # Packager: fred.galusik at gmail dot com
-# Depends on: libburn
+# Depends on: libburn,acl,zlib
 
 name=libisofs
-version=0.6.20
+version=0.6.32
 release=1
 source=(http://files.libburnia-project.org/releases/$name-$version.tar.gz)
 
